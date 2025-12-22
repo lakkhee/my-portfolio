@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+🌐 Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio website built to showcase my skills, projects, and experience as a Software Engineering undergraduate and Junior Software Developer. The portfolio highlights my work in full-stack development, desktop applications, and mobile applications.
 
-## Available Scripts
+🔗 Live Website:
 
-In the project directory, you can run:
+👉 https://lakkhee.github.io/my-portfolio
 
-### `npm start`
+👩‍💻 About Me
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I’m Lakkhee Warangana, an undergraduate Software Engineering student and Junior Software Developer.
+I’m passionate about building user-friendly, efficient, and visually appealing applications using modern technologies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This portfolio serves as:
 
-### `npm test`
+⦁	A professional online presence
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⦁	A showcase of my projects and technical skills
 
-### `npm run build`
+⦁	A way for recruiters and collaborators to connect with me
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⦁	Responsive and modern UI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+⦁	Smooth animations and transitions
 
-### `npm run eject`
+⦁	Projects section with detailed descriptions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+⦁	Skills section with proficiency levels
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+⦁	Clean navigation and layout
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+⦁	Fully deployed and accessible via URL
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🛠️ Technologies Used
 
-## Learn More
+⦁	Frontend: React.js, Tailwind CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+⦁	UI & Icons: React Icons
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+⦁	Deployment: GitHub Pages
 
-### Code Splitting
+⦁	Version Control: Git & GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📂 Projects Highlighted
 
-### Analyzing the Bundle Size
+Some of the projects included in this portfolio:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+⦁	AI-Powered Badminton Training Application (SmashPro)
 
-### Making a Progressive Web App
+⦁	e-Shift Transport Management System
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+⦁	Payroll Management System – Grifindo Toys
 
-### Advanced Configuration
+⦁	Freelance Photographer Portfolio Website
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+⦁	Database System for Film Production Management
 
-### Deployment
+Each project includes:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+⦁	Description
 
-### `npm run build` fails to minify
+⦁	Technologies used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⦁	Key functionalities
+
+🚀 Deployment
+
+This portfolio is deployed using GitHub Pages.
+
+📬 Contact Me
+
+LinkedIn: www.linkedin.com/in/lakkhee-warangana-945789311
+
+GitHub: https://github.com/lakkhee
+
+Email: hglakkheewarangana@gmail.com
+
+📌 License
+
+This project is open for viewing and inspiration.
+Please do not copy content or design directly without permission.
