@@ -16,7 +16,7 @@ export default function About() {
   const handleResumeDownload = (e) => {
     e.preventDefault();
     const link = document.createElement('a');
-    link.href = '/my-portfolio/resume-lakkhee_warangana.pdf';
+    link.href = '/my-portfolio/public/resume-lakkhee_warangana.pdf';
     link.download = 'resume-lakkhee_warangana.pdf';
     document.body.appendChild(link);
     link.click();
