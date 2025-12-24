@@ -13,6 +13,16 @@ export default function About() {
     });
   };
 
+  const handleResumeDownload = (e) => {
+    e.preventDefault();
+    const link = document.createElement('a');
+    link.href = '/resume-lakkhee_warangana.pdf';
+    link.download = 'resume-lakkhee_warangana.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section
       id="about"
@@ -143,8 +153,8 @@ export default function About() {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4 pt-6">
-            <a
-              href="/resume.pdf"
+            <button
+              onClick={handleResumeDownload}
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
               className="group relative px-7 py-3 rounded-full
@@ -152,7 +162,7 @@ export default function About() {
                          hover:from-blue-600 hover:to-purple-700
                          transition-all duration-300 shadow-lg hover:shadow-2xl 
                          hover:scale-105 transform font-bold text-base
-                         overflow-hidden"
+                         overflow-hidden cursor-pointer"
             >
               <span className="relative z-10 flex items-center gap-2">
                 Download Resume
@@ -166,7 +176,7 @@ export default function About() {
                 </svg>
               </span>
               <div className="absolute inset-0 bg-white/20 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
-            </a>
+            </button>
 
             <a
               href="#contact"

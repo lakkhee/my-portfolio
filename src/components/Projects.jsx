@@ -14,21 +14,21 @@ export default function Projects() {
   };
 
   const projects = [
-    {
-      name: "AI-Powered Badminton Training Application – SmashPro",
-      description: `Developed a mobile app that analyzes badminton player movements in real time using computer vision. Implemented pose estimation and motion tracking to evaluate techniques, providing automated feedback and personalized coaching insights. Designed a mobile-friendly interface for smooth training analysis.`,
-      tech: ["React Native", "FastAPI", "Computer Vision", "Pose Estimation"],
-      category: "mobile",
-      color: "from-purple-500 to-pink-500",
-      link: "#",
-    },
+    //{
+     // name: "AI-Powered Badminton Training Application – SmashPro",
+      //description: `Developed a mobile app that analyzes badminton player movements in real time using computer vision. Implemented pose estimation and motion tracking to evaluate techniques, providing automated feedback and personalized coaching insights. Designed a mobile-friendly interface for smooth training analysis.`,
+      //tech: ["React Native", "FastAPI", "Computer Vision", "Pose Estimation"],
+      //category: "mobile",
+      //color: "from-purple-500 to-pink-500",
+      //link: "#",
+    //},
     {
       name: "e-Shift Transport Management System",
       description: `Desktop system to manage transport jobs, customers, vehicles, and loads. Implemented job assignment, status tracking, and transport unit management. Integrated a relational database to support efficient operations.`,
       tech: ["C#", "Windows Forms", "MS SQL"],
       category: "desktop",
       color: "from-blue-500 to-cyan-500",
-      link: "#",
+      link: "https://github.com/lakkhee/e-shift-system",
     },
     {
       name: "Payroll Management System – Grifindo Toys",
@@ -36,7 +36,7 @@ export default function Projects() {
       tech: ["C#", "MS SQL"],
       category: "desktop",
       color: "from-green-500 to-teal-500",
-      link: "#",
+      link: "https://github.com/lakkhee/Payroll-Management-System",
     },
     {
       name: "Freelance Photographer Website – Malcolm Lismore",
@@ -52,8 +52,17 @@ export default function Projects() {
       tech: ["Database Design", "MS SQL", "C#"],
       category: "desktop",
       color: "from-indigo-500 to-purple-500",
+      link: "https://github.com/lakkhee/QuietAtticFilms-DBMS",
+    },
+    {
+      name: "E-Video Cloud (EVC) – UI/UX Design Project",
+      description: `Designed end-to-end UI/UX for a cloud-based online video platform. Created user flows and interfaces for video discovery, content rental and ownership, personal libraries, playlists, gifting features, media player interactions, producer dashboards, and system settings.`,
+      tech: ["UI/UX Design", "Wireframing", "User Flow Design", "XD"],
+      category: "uiux",
+      color: "from-purple-500 to-indigo-500",
       link: "#",
     },
+
   ];
 
   const categories = [
@@ -61,6 +70,7 @@ export default function Projects() {
     { id: "mobile", label: "Mobile" },
     { id: "web", label: "Web" },
     { id: "desktop", label: "Desktop" },
+    { id: "uiux", label: "UIUX" },
   ];
 
   const filteredProjects = activeFilter === "all" 

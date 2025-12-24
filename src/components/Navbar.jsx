@@ -9,19 +9,30 @@ export default function Navbar() {
       const scrollY = window.scrollY;
       setScrolled(scrollY > 50);
 
-      // Trigger animation when near top (or adjust as needed)
       if (scrollY < 50) {
-        setAnimateLinks(false); // reset animation
-        setTimeout(() => setAnimateLinks(true), 50); // re-trigger
+        setAnimateLinks(false);
+        setTimeout(() => setAnimateLinks(true), 50);
       }
     };
 
     window.addEventListener("scroll", handleScroll);
-    // Trigger first animation on mount
     setTimeout(() => setAnimateLinks(true), 100);
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handleSmoothScroll = (e, link) => {
+    e.preventDefault();
+    const targetId = link.toLowerCase();
+    const targetElement = document.getElementById(targetId);
+    
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
 
   const navLinks = ["Home", "About", "Skills", "Projects", "Contact"];
 
@@ -51,7 +62,8 @@ export default function Navbar() {
             >
               <a
                 href={`#${link.toLowerCase()}`}
-                className="text-white hover:text-blue-400 transition-colors duration-300"
+                onClick={(e) => handleSmoothScroll(e, link)}
+                className="text-white hover:text-blue-400 transition-colors duration-300 cursor-pointer"
               >
                 {link}
               </a>
